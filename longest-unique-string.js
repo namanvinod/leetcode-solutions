@@ -1,6 +1,6 @@
 // Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-var lengthOfLongestSubstring = function (input) {
+var lengthOfLongestSubstring = (input) => {
     if (!input) return 0;
     if (!input.trim()) return 1;
 
